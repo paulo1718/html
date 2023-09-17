@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manutenção de Ar Condicionado ABC</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Adicione um arquivo CSS para estilos personalizados -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #333;
+            color: black;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .hero {
+            background-image: url('samsung.jpg');
+            background-size: cover;
+            background-position: center;
+            color: blue;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 40px;
+        }
+
+        .cta-button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .cta-button:hover {
+            background-color: #555;
+        }
+
+        .services {
+            padding: 60px 0;
+        }
+
+        .service {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .service img {
+            max-width: 100%;
+        }
+
+        .service h3 {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+
+        .service p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .about {
+            background-color: #fff;
+            padding: 60px 0;
+        }
+
+        .about h2 {
+            font-size: 36px;
+            text-align: center;
+        }
+
+        .about p {
+            font-size: 18px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .testimonials {
+            background-color: #f0f0f0;
+            padding: 60px 0;
+        }
+
+        .testimonial {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .testimonial img {
+            max-width: 100px;
+            border-radius: 50%;
+        }
+
+        .testimonial p {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        .testimonial cite {
+            font-size: 16px;
+            font-style: italic;
+        }
+
+        .contact {
+            padding: 60px 0;
+            background-color: #fff;
+        }
+
+        .contact h2 {
+            font-size: 36px;
+            text-align: center;
+        }
+
+        .contact p {
+            font-size: 18px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .contact-form {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form input[type="tel"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid blue;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .contact-form button {
+            background-color: blue;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 18px;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Manutenção de Ar Condicionado ABC</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#about">Sobre Nós</a></li>
+                    <li><a href="#testimonials">Depoimentos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="container">
+            <h2>Bem-vindo ao nosso serviço de manutenção de ar condicionado</h2>
+            <p>Somos especialistas em garantir que seu sistema de ar condicionado funcione perfeitamente durante todo o ano.</p>
+            <a href="#contact" class="cta-button">Entre em Contato</a>
+        </div>
+    </div>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="service">
+                <img src="service1.jpg" alt="Instalação">
+                <h3>Instalação</h3>
+                <p>Oferecemos instalação profissional de sistemas de ar condicionado em residências e empresas.</p>
+            </div>
+            <div class="service">
+                <img src="service2.jpg" alt="Manutenção Preventiva">
+                <h3>Manutenção Preventiva</h3>
+                <p>Realizamos manutenções regulares para manter seu ar condicionado funcionando de forma eficiente e prolongar sua vida útil.</p>
+            </div>
+            <div class="service">
+                <img src="service3.jpg" alt="Reparo">
+                <h3>Reparo</h3>
+                <p>Conte conosco para reparos rápidos e eficazes sempre que seu ar condicionado apresentar problemas.</p>
+            </div>
+            <div class="service">
+                <img src="service4.jpg" alt="Limpeza de Dutos">
+                <h3>Limpeza de Dutos</h3>
+                <p>Executamos serviços de limpeza de dutos para melhorar a qualidade do ar e a eficiência do sistema.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma equipe dedicada de técnicos em ar condicionado com anos de experiência no setor. Nossa missão é fornecer serviços confiáveis e de alta qualidade para manter seu ambiente confortável em todas as estações.</p>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>Depoimentos de Clientes</h2>
+            <div class="testimonial">
+                <img src="client1.jpg" alt="Cliente 1">
+                <p>"Excelente serviço! Sempre confio na Manutenção de Ar Condicionado ABC para manter meu ar condicionado funcionando perfeitamente."</p>
+                <cite>João Silva</cite>
+            </div>
+            <div class="testimonial">
+                <img src="client2.jpg" alt="Cliente 2">
+                <p>"Rápidos e eficientes! Fizeram um ótimo trabalho na instalação do meu sistema de ar condicionado."</p>
+                <cite>Maria Santos</cite>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <p>Estamos à disposição para responder a todas as suas perguntas e agendar um serviço. Preencha o formulário abaixo ou entre em contato diretamente conosco:</p>
+            <div class="contact-form">
+                <form>
+                    <input type="text" placeholder="Nome" required>
+                    <input type="email" placeholder="E-mail" required>
+                    <input type="tel" placeholder="Telefone">
+                    <textarea placeholder="Mensagem" rows="4" required></textarea>
+                    <button type="submit" class="cta-button">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Manutenção de Ar Condicionado ABC. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
